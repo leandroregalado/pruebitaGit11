@@ -1,0 +1,137 @@
+
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box ;
+
+}
+
+
+/* ESTILO GENERAL */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    padding: 20px 20px;
+}
+
+
+
+
+/* ESTILO BODY */
+body{
+    background: rgb(247, 247, 247);
+    font-family: 'Roboto', sans-serif;
+    margin-top: 110px;
+}
+
+
+/* ESTILO HEADER */
+header{
+    background: rgb(247, 247, 247);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    width: 100%;
+    top: 0px;
+}
+
+header img{
+    width: 70%;
+    margin: 10px;
+}
+
+
+/* ESTILO NAV */
+nav {
+    color: rgb(250, 250, 250);
+    margin: 10px;
+    padding:10px;
+    display:block;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    background-color: rgb(247, 247, 247);
+    display: inline; /* permite trabajar el margin en sus 4 lados */
+    font-size: 20px;
+    margin: 15px;
+    position: relative;
+
+
+}
+
+nav ul li:hover{
+    background-color: rgb(214, 214, 214);
+    padding: 1px;
+    font-weight: bold;
+}
+
+nav ul ul{
+    display:none;
+    position: absolute;
+}
+
+nav ul li:hover > ul{
+    
+    margin: 10px;
+    display:inline-block;
+}
+
+
+/* ESTILO MAIN */
+h1{ 
+    font-family: "Encode+Sans+Condensed";
+    font-size: 30px;
+    color:white;
+    background-color: rgba(207, 201, 201, 0.8);
+    background-size: cover;
+    padding: 20px 20px;
+}
+
+h2 {
+    color: rgb(58, 133, 218);
+    padding: 10px 10px 10px 0px;
+    border-bottom: 1px solid rgb(58, 133, 218);
+}
+
+main{
+    background-color: white;
+}
+
+
+.noticias{
+    display: inline;
+    padding: 20px 20px;
+    margin: 20px;
+}
+
+.section-h1{
+    background-image: url(../img/arsa.jpeg);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: cover;
+    padding: 0px 0px;
+}
+
+.div-lv-web{
+    background-color: rgb(247, 247, 247);
+    padding: 20px 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* ESTILO FOOTER */
+footer{
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+}
+
